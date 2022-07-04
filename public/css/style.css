@@ -1,0 +1,368 @@
+/* html o generales */
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+head body
+
+/* aqui nos dice como vamos a tratar el body, propuedades */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+}
+
+header
+/* aqui comienza lo relacionado con el header 
+Header */
+
+div.top-header {
+    padding: 5%;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+header div.logo {
+    width: 50%;
+}
+
+header div.logo {
+    padding: 10px;
+}
+
+header nav {
+    font-size: 12px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input {
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit {
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+header div.top-header p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* menu desplegable */
+div.burger-menu {
+    text-align: center;
+}
+
+.pruduct {
+    display: flex;
+
+}
+
+div.burger-menu i {
+    background-color: #0044AA;
+    border-radius: 50px;
+    display: none;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+
+main .main {
+    background-color: #666;
+
+}
+
+h3
+
+/*  "basado en su ultima visita" */
+/*  "basado en su ultima visita" */
+h3 {
+    font-size: 24px;
+}
+
+h3,
+.description {
+    color: #666;
+    padding: 1px 1px 1px 1px;
+    color: #666;
+    flex-direction: row;
+}
+
+/* .ofertas{
+    flex-direction: row;
+    width: 1000px; } */
+
+
+/* parrafo que describe cada elemento */
+p {
+    font-size: 18px;
+    width: 70%;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #efefef;
+}
+
+/* la sesion de last visit */
+.last-visit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* la sesion de ofertas */
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    padding: 10px;
+    background-color: #FFF;
+    width: 45%;
+    box-shadow: #666;
+}
+
+.product:hover {
+    display: block;
+}
+
+.space {
+    margin: 10px;
+    background-color: #efefef;
+}
+
+body {
+    background-color: #efefef;
+}
+
+main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/* iamgen del articulo en venta  */
+main section article img {
+    width: 100%;
+    margin: auto;
+    width: 90%;
+    /* box-shadow: 10px 10px 8px 10px #888888; */
+
+
+}
+
+/* todo el main es decir donde estan los artiuclos expuestos  */
+
+
+/* camionsito */
+main section article i {
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #efefef;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    display: 30%;
+    width: 30%;
+}
+
+/* camionsito */
+.article {
+    background-color: #fff;
+    margin-bottom: 5px solid #efefef;
+}
+
+.conteiner-text i {
+    border: 1px solid green;
+    border-radius: 50%;
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    right: 20px;
+    top: -15px;
+    font-size: 16px;
+    width: 30%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+/* donde estan los textos de cada imagen (precio etc) */
+main article div.conteiner-text {
+    padding: 10px;
+    border-top: solid 2px #efefef;
+    flex-direction: column;
+    position: relative;
+    background-color: #FFF;
+
+}
+
+/* todo el artiuclo incluyendo foto /* cada articulo */
+
+
+/* aqui se hace referencia al p (especificamente el descuento)
+<p class="discount">10% off</p> */
+.discount,
+.description {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* aqui se comeinza con la secion main que hace parte del body, es donde estan los atoculos  */
+main section article i,
+/* cuando hablamos de i hace referenica  ala imagen del tractor, 
+   cuando hablamos de ".discount es refernte al class que se llama asi.  */
+.discount {
+    color: #39b54a;
+    display: 70%;
+}
+
+/* aqui comienza el footer */
+.ofertas {
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    align-content: center;
+}
+
+.footer-icono {
+    text-align: center;
+    size: 5mm;
+    margin-left: 50%;
+    margin-right: 50%;
+    background-color: white;
+
+}
+
+footer i {
+    color: #03264C;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+footer section {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+
+
+}
+
+.elementos {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.footer-icono {
+    right: 10px;
+    display: flex;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-icono {
+    right: 10px;
+    display: flex;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.section1 p {
+    width: 100%;
+}
+
+/* media querie segun el dispositivo que se tenga para que modifique */
+@media screen and (min-width: 361px) {
+    .product {
+        width: 45%
+    }
+}
+
+/* version de dispositivo */
+@media screen and (min-width: 769px) {
+
+    /* se le dan el transform al prodcucto */
+    .product {
+        box-shadow: none;
+        transition: 1000ms;
+    }
+
+    /* se le dan el transform a la imagen del producto */
+    .product {
+        width: 17%
+    }
+    
+    .product i {
+        transition: 1000ms;
+    }
+
+    .product:hover i {
+        transform: rotate(-90deg);
+
+    }
+
+    .product:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+
+
+    .section1 {
+        width: 33%;
+    }
+
+    .elementos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    h3 {
+        width: 100%;
+    }
+}
